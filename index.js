@@ -5,10 +5,10 @@ var cheerio = require('cheerio');
 var app = express();
 
 var port = 8080;
-
 app.get('/', function(req, res) {
   // The URL we will scrape from - in our example Anchorman 2.
 
+  'use strict';
   var url = 'http://en.wikiquote.org/wiki/Latin_proverbs';
 
   // The structure of our request call
